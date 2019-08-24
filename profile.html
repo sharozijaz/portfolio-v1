@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+        <div><nav class="main-menu">
+
+
+  
+ 
+                <div class="settings"></div>
+                <div class="scrollbar" id="style-1">
+                      
+                <ul>
+                  
+                <li>                                   
+                <a href="home.html">
+                <i class="fa fa-home fa-lg"></i>
+                <span class="nav-text">Home</span>
+                </a>
+                </li>   
+                   
+               
+                
+                    
+                <li>                                 
+                <a href="contact.html">
+                <i class="fa fa-envelope-o fa-lg"></i>
+                <span class="nav-text">Contact Me</span>
+                </a>
+                </li>   
+                  
+                
+                
+                 
+                
+                                            
+                
+                  
+                  
+                </li>
+                
+                
+                  
+                <li>
+                                                   
+                <a href="profile.html">
+                <i class="fa fa-question-circle fa-lg"></i>
+                <span class="nav-text">About Me</span>
+                </a>
+                </li>   
+                    
+                  
+                <ul class="logout">
+                <li>
+                                   <a href="https://frostgiant.blogspot.com">
+                                         <i class="fa fa-lightbulb-o fa-lg"></i>
+                                        <span class="nav-text">My Blog</span>
+                                        
+                                    </a>
+                </li>  
+                </ul>
+                        </nav>
+                        
+                <div class="Info" align="center">
+                    <div>
+                        <a class="logo">
+                            <h1 class="t"><a href="https://github.com/sharozijaz">sharozijaz.github.io</a></h1>
+                        </a>
+                        
+                        
+                      </div> 
+                     
+                    </div>
+                </div>
+
+
+                <div class="about-h1">
+                    <h1 align="center">About Me</h1> 
+               </div>
+               <div class="introduction" >
+                   <h3>My Introduction</h3><img src="profilepic.jpg" class="profile-pic">
+                   <p class="paragraph">Hi,
+                       <br>
+                         
+                        &nbsp My name is Sharoz Ijaz,and I am a Web Developer.
+                        A year ago I completed my College Education with <abbr title="Intermediat in Computer Science" style="text-decoration: none">ICS</abbr> Degree.<br>
+                        
+                        After My College i have faced my Worst Nightmare that due to My Disabilty to Walk i have to search for University that would be compatible with Wheelchair Asscebilty, but Unfortunatly there is No Such University avilible around my area, So i thought why  not i  Study at home with the Subjects that i Like and Only Focus on What i want to Be in Future, So i Started Finding Latest Technology Trends in markets and mostly those who have Bright Future,i came up with very unique skills which i thought might local Universities may not tech so i picked "Two" Skills sets :
+                        <ol type="1" style="color: rebeccapurple">
+                            <li>Web Development</li>
+                            <li>Artifical Inteligence</li>
+                        </ol>
+                    </p>
+                    <p class="paragraph">
+                        I Select Web Development as My first Skill because now days You just can't build Web Site you can also build Web Apps,Android App(With help of React Native ),and much more as you increase your Knowledge of Programming.So i start Learning it and then mastering it, it was a Cool Experience. <br>Now after Working hard on My Skills Set i am Fully Confident about My Self.
+                        Now I can Develop WordPress Websites with SEO Integration, Can Build Web Apps Using React, Can Develop Programming Based Websites, Do SEO(Search Engine Optimization), Social Media Marketing and Affiliate Marketing for Small Bloggers.
+                        
+                   </p>
+
+
+               </div>
+               <br>
+               <h2 align="center">My Skill Set</h2>
+               <div id="chartContainer" style="height: 300px; width: 1200px; margin-left: 90px ;" >
+               
+                    <script>
+                            window.onload = function () {
+                            
+                            var chart = new CanvasJS.Chart("chartContainer", {
+                                animationEnabled: true,
+                                title:{
+                                    text: "My Skills",
+                                    horizontalAlign: "left"
+                                },
+                                data: [{
+                                    type: "doughnut",
+                                    startAngle: 60,
+                                    //innerRadius: 60,
+                                    indexLabelFontSize: 17,
+                                    
+                                    toolTipContent: "<b>{label}:</b> {y}",
+                                    dataPoints: [
+                                        { y: 50, label: "HTML/CSS" },
+                                        { y: 50, label: "WordPress" },
+                                        { y: 50, label: "JavaScript & Beyond" },
+                                        { y: 50, label: "BackEnd Developing"},
+                                        { y: 50, label: "SEO"},
+                                        { y: 50, label: "Social Media Marketing"}
+                                    ]
+                                }]
+                            });
+                            chart.render();
+                            
+                            }
+                            </script>
+               </div>
+</html>

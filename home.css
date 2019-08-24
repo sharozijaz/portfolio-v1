@@ -1,0 +1,19 @@
+body{
+	background-image: url("home.jpg");
+	background-position: center center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.container{
+margin-top: 200px; 
+border-bottom: 2px solid;
+
+
+}
+
+h1{
+	text-align: center;
+	color: white;
+
+}
